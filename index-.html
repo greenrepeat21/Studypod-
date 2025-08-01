@@ -5,12 +5,10 @@
   <title>USIU Study Pod Booking Widget</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 2em; }
-    h1 { }
     form, table, #insights, #errors { border-radius: 8px; box-shadow: 0 2px 6px #ddd; margin-bottom: 1.5em; }
     form { padding: 1em; max-width: 540px; }
     table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
     th, td { border: 1px solid #999; padding: 0.6em 1em; }
-    th { }
     #errors { padding: 0.7em 1em; margin-bottom: 1em; min-height: 1.2em; }
     #insights { padding: 1em 1.2em; }
     .action-btn { border: 1px solid #999; border-radius: 4px; padding: 0.2em 1em; cursor: pointer; background: none; }
@@ -372,7 +370,6 @@
       - Invalid time strings: Only accept 24h valid strings, and only within 08:00 (inclusive) to 20:00 (exclusive). "20:00" is *not* a valid slot (end exclusive), so last is "19:00".
       - Empty student list: after parsing and filtering, if empty, error is shown, booking is rejected.
     */
-
   </script>
 </body>
 </html>
